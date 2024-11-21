@@ -1,0 +1,70 @@
+:root {
+  --color-bg1: rgb(8, 10, 15);
+  --color-bg2: rgb(0, 17, 32);
+  --color-interactive: 140, 100, 255;
+  --circle-size: 80%;
+  --blending: hard-light;
+}
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(45deg, #6302bd, #7503e0, #7503e0, #be0270, #e20185, #ff0095, #ff7b00, #ffee00fb, #ff0000, #ff0000, #ff0000);
+  background-size: 400% 400%;
+  animation: gradientBackground 30s ease infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+@keyframes gradientBackground {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.container {
+  text-align: center;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  color: #fff;
+  background-color: #ff0000;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #b4000f;
+  transform: scale(1.1);
+}
+
+.hidden {
+  display: none;
+}
+
+#finalOptions p {
+  margin: 20px 0;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
