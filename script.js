@@ -13,10 +13,14 @@ const gombalanList = [
   "Kamu itu seperti gravitasi, selalu menarik hatiku ke arahmu.",
   "Kamu itu seperti garam di lautan, tidak terlihat namun akan selalu ada untuk selamanya.",
   "Enak ya jadi kamu, kalau mau lihat bidadari tinggal lihat di kaca.",
-  "ika kamu berdiri di depan cermin memegang 11 mawar, kamu akan melihat 12 bunga tercantik yang pernah ada.",
+  "Kalau kuliah butuh skripsi, kalau kita butuhnya resepsi.",
   "Tahu gak kenapa kita Cuma bisa lihat pelangi setengah lingkaran? Sebab setengahnya lagi ada di mata kamu.",
   "Pikiranku bekerja sangat luar biasa 365 hari setahun, 7 hari seminggu dan 24 jam sehari sampai aku bertemu denganmu.",
   "Panda apa yang bikin seneng? Pandangin kamu setiap hari.",
+  "Pergi ke taman membeli bunga, Bunga mawar warnanya merah. Hatiku ini tak pernah dusta, Cintaku padamu selamanya indah.",
+  "Pagi-pagi minum kopi, Di teras rumah sambil santai. Kamu itu bagaikan mentari, Menghangatkan hati sepanjang hayat.",
+  "Eh pinjem flashdisk dong, aku pengen transfer data cintaku buat kamu.",
+  "Coba kamu lihat matahari terbenam, dia begitu indah. Namun keindahannya tidak dapat menandingi keindahan dirimu.",
 ];
 
 // Index for tracking gombalan
